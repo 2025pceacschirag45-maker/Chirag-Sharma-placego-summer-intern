@@ -1,0 +1,9 @@
+# Q- Write a program that takes three names (or any words) from a user in a single input prompt and assigns them to three separate variables.
+
+name1, name2, name3 = input("Enter the names : ").split()
+
+print(name1)
+print(name2)
+print(name3)
+
+
