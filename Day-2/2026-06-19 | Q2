@@ -1,1 +1,15 @@
+#  Q- Write a program that accepts two integer numbers from the user and calculates their multiplication. Print the final result to the console.
+
+
+# Accept two integer numbers from the user
+num1 = int(input("Enter the first Number : "))
+num2 = int(input("Enter the Second Number : "))
+
+# Calculate the multiplication of the two numbers
+product = num1 * num2
+
+# Print the solution of the product
+print(product)
+
+
 
