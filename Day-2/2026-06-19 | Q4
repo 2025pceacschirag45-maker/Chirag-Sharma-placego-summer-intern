@@ -1,1 +1,8 @@
 
+# Q- Accept an integer from the user and display it as an octal number (Base 8).
+
+# Accept integer number from the user
+num = int(input("Enter an integer: "))
+
+# Print the output
+print(oct(num)[2:])
