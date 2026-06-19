@@ -11,4 +11,3 @@ class Solution(object):
         nums[:k] = reversed(nums[:k])
 
         nums[k:] = reversed(nums[k:])
-               
