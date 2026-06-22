@@ -1,0 +1,11 @@
+# Given two strings, s1 and s2, create a new string by appending s2 in the middle of s1.
+
+s1 = input("Enter first name : ") 
+s2 = input("Enter second name : ")
+
+mid = len(s1) // 2 #to measure length of s1
+
+before_mid = s1[:mid] # Character before midddle character
+after_mid = s1[mid:] # Character after midddle character
+
+print(before_mid + s2 + after_mid)
