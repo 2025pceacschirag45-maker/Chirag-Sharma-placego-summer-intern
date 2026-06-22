@@ -1,0 +1,14 @@
+# Write a program to create a new string made of an input string’s first, middle, and last characters.
+
+name = input("Enter the name : ") # to take input from user
+
+n = len(name) # To measure length of input 
+
+first = name[0] # first character
+mid = name[n // 2] # Middle character
+last = name[-1] # Last character
+
+if(n % 2 == 0): # for even character
+    print("The middle character cannot possibly be written(even length) , Hence the new string is : ", first + last)
+else: # For odd character
+    print(first + mid + last)
