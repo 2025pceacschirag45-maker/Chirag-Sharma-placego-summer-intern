@@ -1,0 +1,13 @@
+#  Write a program to create a new string made of the middle three characters of an input string of odd length
+
+name = input("Enter the name : ")
+
+n = len(name) # To measure length of input
+
+mid = n // 2
+
+just_left = name[mid - 1] # Just left character from middle character
+middle = name[mid] # Middle character
+just_right = name[mid + 1] # Just right character from middle character
+
+print(just_left + middle + just_right)
