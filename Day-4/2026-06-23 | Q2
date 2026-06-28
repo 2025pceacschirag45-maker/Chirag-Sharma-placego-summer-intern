@@ -1,0 +1,13 @@
+# Write a program to count the total number of vowels (a, e, i, o, u) in a given string.
+
+
+n = input("Enter the word : ").lower()
+
+vowels = 'aeiou'
+count = 0
+
+for letter in n :
+    if letter in vowels:
+        count += 1
+    
+print('Vowels are : ', count)
