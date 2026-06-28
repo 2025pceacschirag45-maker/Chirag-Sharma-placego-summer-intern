@@ -1,0 +1,7 @@
+#  Q-Remove every single space from a given string, including spaces between words.
+
+text = input("Enter the word : ")
+
+no_space = text.replace(" ","")
+
+print(no_space)
