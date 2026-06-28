@@ -1,0 +1,10 @@
+# Q-Write a program to check if a string is a palindrome (reads the same forward and backward).
+
+text = input('Enter the word : ')
+
+reversed_text = text[::-1]
+
+if reversed_text == text:
+    print('True')
+else:
+    print('False')
