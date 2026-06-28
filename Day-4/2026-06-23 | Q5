@@ -1,0 +1,7 @@
+# Q-Write a program to find the last index of the substring “Emma” in a given string.
+
+str = "Emma is a data scientist who knows Python. Emma works at google."
+
+last_index = str.rfind("Emma")
+
+print("Last occurrence of Emma starts at index", last_index)
