@@ -1,0 +1,21 @@
+list = [100, 50, 400, 500]
+
+# Change the second element of a list to 200 and print the updated list
+list[1] = 200
+print('Updated (Change) : ',list)
+
+# Add 600 at the end of a list and print the new list
+list.append(600)
+print('Updated (Append) : ',list)
+
+#  Insert 300 at the third position (index 2) of a list and print the result
+list.insert(2,300)
+print('Updated (Insert) : ',list)
+
+#  Remove 600 from the list and print the list
+list.remove(600)
+print('Updated (Remove) : ',list)
+
+# Remove the element at index 0 from the list print the list
+list.remove(list[0])
+print('Updated (Pop) : ',list)
