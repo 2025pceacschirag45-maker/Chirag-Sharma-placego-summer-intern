@@ -1,0 +1,12 @@
+# Q- Write a script to perform the following three operations on given list, Access the third element of a list, List Length: Print the total number of items, Check if the list is empty
+
+list = [10, 20, 30, 40, 50]
+
+# Access the third element of a list
+print(list[2])
+
+# Print the total number of items
+print(len(list))
+
+# Check if the list is empty
+bool(not list)
